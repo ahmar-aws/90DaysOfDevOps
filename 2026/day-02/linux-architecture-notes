@@ -1,0 +1,11 @@
+Kernel; 
+It is the core of the linux operating system. The kernel is responsible for managing core components of a system like CPU, RAM and Storage. It is the third layer in linux architecture. 
+User space;
+This section comprises of first two layers of linux architecture (Application and Shell). This is where user runs all the applications, utilities and talks to the kernel via shell.
+init/systemd
+Init;
+ is a system program that is initiated by kernel when system is turned on. Init is responsible for starting the important services like networking, login screens, and background system tasks. 
+Systemd;
+is an advanced version of init which ensure the smooth running of the the important services including to restart the services if needed. networking, login screens, and background system tasks
+Processes are created using the fork() and exec() mechanisms.
+“In linux every user process comes from another process.”
