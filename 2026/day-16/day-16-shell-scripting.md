@@ -23,6 +23,7 @@ $ sign is very important for the script to run successfully. Otherwise the scrip
 using single or double quotes doesn't affect the script
 
 <h1>the 3rd script is greet.sh<h1>
+  
 code;
   
 read -p "enter your name" name
@@ -36,7 +37,8 @@ echo "my name is $name and i use $tool frequently"
 I did not  learn anything new frim this script as the usage of $ sign was clarified in the 2nd script
 
 <h1>the 4th script (1/2) is check_number.sh <h1>
-code; 
+code;
+  
 #!/bin/bash
 
 read -p "enter a number " a
@@ -54,8 +56,11 @@ fi
 <h1>what I learnd</h1>
 
 I learned alot while creating this script I also used AI just to see what what issue are remaining after I used all my troubleshootimg skills.
+
 <h1>the 4th script (2/2) is file_check.sh <h1>
+  
 code;
+  
 #!/bin/bash
 
 if [ -f "hello.sh" ]; then
@@ -64,9 +69,12 @@ else
         echo"file does not exists!"
 fi
 <h1>what I learnd</h1>
+
 I learned that -f is used for file and -d for directory, -dpkg for a package. these are build-in commands
 <h1>5th script is server_check.sh</h1>
+
 code;
+
 #!/bin/bash
 
 read -p "enter the service name" service
