@@ -1,11 +1,14 @@
 <h1>the 1st script is hello.sh<h1>
 code;
+  
 #!/bin/bash
 echo "hello devops"
 <h1>what I learnd</h1>
 sheband is not mandatory but to use ot is best practice
+  
 <h1>2nd script is variables.sh</h1>
 code;
+
 #!/bin/bash
 
 Name="Ahmar"
@@ -15,6 +18,7 @@ Role="devops enginerriner"
 echo "my Name is $Name and im an aspiring $Role"
 
 <h1>what I learnd</h1>
+
 $ sign is very important for the script to run successfully. Otherwise the script will not ba able to use the user input.
 using single or double quotes doesn't affect the script
 
